@@ -5,6 +5,6 @@
  */
 
 return [
-    'token' => env('RecastAI_TOKEN'),
+    'token' => env('RECASTAI_TOKEN'),
     'language' =>env('LANGUAGE','en')
 ];
