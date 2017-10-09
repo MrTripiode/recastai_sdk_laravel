@@ -8,6 +8,7 @@
             "email": "kanian77@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "recastai/sdk-php": "^3.1"
     },
