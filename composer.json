@@ -1,6 +1,6 @@
 {
     "name": "kanian/recastai_sdk_laravel",
-    "description": "A laravel package based on the official PHP SDK Recast.AI recastai/sdk_php from Marian André <marian.andre@recast.ai>",
+    "description": "A laravel package for RecastAI based on the official PHP SDK Recast.AI recastai/sdk_php from Marian André <marian.andre@recast.ai>",
     "license": "MIT",
     "authors": [
         {
