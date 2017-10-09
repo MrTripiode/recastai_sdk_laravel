@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "recastai/sdk-php": "^3.1"
+        "kanian/recastai-sdk-php-no-require-autoload": "dev-master"
     },
 	"autoload": {
 		"psr-4": {
