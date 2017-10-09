@@ -52,6 +52,6 @@ class TryRecastAIController extends Controller
 To override the default configuration add the following parameters to your .env file. 
 
 ```
-RecastAI_TOKEN = YOUR_RECASTAI_REQUEST_TOKEN
+RECASTAI_TOKEN = YOUR_RECASTAI_REQUEST_TOKEN
 LANGUAGE = 'en'
 ```
