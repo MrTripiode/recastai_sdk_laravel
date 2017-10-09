@@ -1,0 +1,29 @@
+{
+    "name": "kanian/recastai_sdk_laravel",
+    "description": "A laravel package based on the official PHP SDK Recast.AI recastai/sdk_php from Marian André <marian.andre@recast.ai>",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Assoa Adou",
+            "email": "kanian77@gmail.com"
+        }
+    ],
+    "require": {
+        "recastai/sdk-php": "^3.1"
+    },
+	"autoload": {
+		"psr-4": {
+			"Kanian\\RecastAILaravel\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Kanian\\RecastAILaravel\\RecastAIServiceProvider"
+			],
+			"aliases": {
+				"RecastAI": "Kanian\\RecastAILaravel\\RecastAIFacade"
+			}
+		}
+	}
+}
