@@ -10,7 +10,7 @@ use \Illuminate\Support\Facades\Facade;
  * @author Patrick Assoa Adou (kanian77@gmail.com)
  */
 
-class RecastAIFacade {
+class RecastAIFacade extends Facade{
     
     protected static function getFacadeAccessor() {
         return 'recastai';

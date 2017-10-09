@@ -1,12 +1,14 @@
 <?php
 
 namespace Kanian\RecastAILaravel;
+
+use Illuminate\Support\ServiceProvider;
 /**
  * Description of RecastAIServiceProvider
  *
  * @author Patrick Assoa Adou (kanian77@gmail.com)
  */
-class RecastAIServiceProvider {
+class RecastAIServiceProvider extends ServiceProvider {
     protected $defer = true;
     
     public function boot() {
