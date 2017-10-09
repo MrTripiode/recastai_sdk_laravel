@@ -14,14 +14,10 @@ Now you are ready to use the \RecastAI Facace, e.g. open routes/web.php:
 ``` PHP
 <?php
 
-Route::get('mongo', function(Request $request) {
+Route::get('tryrecastai', function(Request $request) {
     return \RecastAI::get()
                       ->request
                           ->analyseText('hello');
-});
-
-Route::get('/', function () {
-    return view('welcome');
 });
 
 ```
