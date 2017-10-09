@@ -26,7 +26,7 @@ class RecastAIService {
      * 
      * @return Kanian\RecastAILaravel\RecastAIService
      */
-    public function get() : Kanian\RecastAILaravel\RecastAIService  {
+    public function get() : RecastAI\Client  {
         return $this->recastai;
     }
     
