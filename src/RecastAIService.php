@@ -22,15 +22,11 @@ class RecastAIService {
         $this->recastai = new Client($token, $language);
     }
     
-    public function __invoke(){
-        return $this->get();
-    }
-    
     /**
      * 
      * @return Kanian\RecastAILaravel\RecastAIService
      */
-    private function get() : Kanian\RecastAILaravel\RecastAIService  {
+    public function get() : Kanian\RecastAILaravel\RecastAIService  {
         return $this->recastai;
     }
     

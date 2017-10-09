@@ -9,6 +9,7 @@ use Illuminate\Support\ServiceProvider;
  * @author Patrick Assoa Adou (kanian77@gmail.com)
  */
 class RecastAIServiceProvider extends ServiceProvider {
+    
     protected $defer = true;
     
     public function boot() {
