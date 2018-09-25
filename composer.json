@@ -8,7 +8,7 @@
             "email": "kanian77@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "kanian/recastai-sdk-php-no-require-autoload": "dev-master"
     },
